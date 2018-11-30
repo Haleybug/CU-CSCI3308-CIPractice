@@ -2,4 +2,4 @@ language: c
 compiler:
   - gcc
 script:
-  make clean && sudo apt-get update && make dep test
+  make clean && sudo apt-get update && make dep test && make clean && make test
