@@ -4,8 +4,4 @@ compiler:
 script:
   sudo apt-get update
 script:
-  make dep
-script: 
-  make clean
-script:
-  make test
+  make dep clean test
