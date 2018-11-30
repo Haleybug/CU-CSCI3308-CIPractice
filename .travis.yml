@@ -3,6 +3,9 @@ compiler:
   - gcc
 script: 
   make clean
+script:
   sudo apt-get update
+script:
   make dep
+script:
   make test
